@@ -15,6 +15,7 @@ public class usingList {
         List<String> array2 = new LinkedList<>(array1);
         // 전통배열선언과 초기화처럼 사용해볼때
         ArrayList<String> test = new ArrayList<>(Arrays.asList("Hello", "World", "Welcome", "To", "Java"));
+        array1 = test;
 
         // 배열자체 문자열출력: List인터페이스는 toString()을 Override해서 자동으로 됨.
         System.out.println(Arrays.toString(array));
